@@ -1,0 +1,16 @@
+<!-- parent component -->
+<div class="">
+  <div class="">
+    <app-add-todo (todoAdd)="add($event)"></app-add-todo>
+  </div>
+  <div *ngIf="this.todos.length === 0; else elseBlock">No todos to display</div>
+  <ng-template #elseBlock>
+    <div *ngFor="let todo of todos">
+      <!-- child component -->
+      <app-todo-item
+        [todo]="todo"
+        (todoDelete)="delete($event)"
+      ></app-todo-item>
+    </div>
+  </ng-template>
+</div>
