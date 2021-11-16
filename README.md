@@ -1,4 +1,8 @@
-# Get Started Angular
+# Recordings
+
+### [Introduction to Angular Js Session](https://drive.google.com/file/d/1qiWQP4ipzb3c4vDxFzSmE4eKVUBmouLm/view?usp=sharing)
+
+# General Get Started Angular Guid
 
 ### Installing Angular CLI
 
@@ -31,7 +35,7 @@ ng generate component component-name
 npm i bootstrap jquery
 ```
 
-#### Configuring Bootstrap in angular.json
+## Configuring Bootstrap in angular.json
 
 ###### Replace the architect-build object in angular.json
 
@@ -57,3 +61,4 @@ npm i bootstrap jquery
           },
 ```
 
+###
