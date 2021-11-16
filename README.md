@@ -2,7 +2,7 @@
 
 ### [Introduction to Angular Js Session](https://drive.google.com/file/d/1qiWQP4ipzb3c4vDxFzSmE4eKVUBmouLm/view?usp=sharing)
 
-# General Get Started Angular Guid
+# General Get Started Angular Guide
 
 ### Installing Angular CLI
 
